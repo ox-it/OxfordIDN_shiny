@@ -1,0 +1,28 @@
+---
+title: "Depositing Shiny Apps in a Data Repository"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+    includes:
+      before_body: [includes/include_header.html, includes/include_header_navpage.html]
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+# Depositing Shiny Apps in a Data Repository
+
+Here's a guide to how to do this using a number of different repositories.
+
+# Figshare
+
+# ORA Data

@@ -1,0 +1,39 @@
+---
+title: "IDN Shiny Apps"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+    includes:
+      before_body: [includes/include_header.html, includes/include_header_navpage.html]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+# IDN Shiny Apps
+
+The University of Oxford's IDN manages a [shinyapps.io](shinyapps.io) account to which Oxford researchers may publish Shiny apps to interactively visualise research datasets that are deposited in DOI issuing data repositories. For an overview of Shiny apps published by Oxford researchers please see the [visualisation showcase](idn.it.ox.ac.uk/visualisation-showcase). All Shiny apps published to the IDN must fulfill the following criteria:
+
+- Shiny apps must be a visualisation of research data, they should not be a "online calculator for X"
+- Shiny apps must not contain any data, apps must [pull data from a data repository](connecting-to-repositories.html)
+- The code for the Shiny app itself must be made available and deposited in an appropriate repository.
+- Shiny apps must include the following information
+    - Researcher's name, affiliation and ORCID
+    - DOIs for the datasets in the [data repository](connected-to-repositories.html)
+    - Affiliated publication DOIs
+
+The IDN makes available a number of template apps to simplify the publication process, you can find them in the [OxfordIDN_shiny-templates repo](https://github.com/ox-it/OxfordIDN-Shiny-Templates). Each of the template apps is discussed in turn below.
+
+# IDN Standard Shiny App
+
+<!--html_preserve-->
+<iframe src="https://trainingidn.shinyapps.io/idn-standard-template/?allowPopout=TRUE" width="100%" height="700px"></iframe>
+<!--/html_preserve-->
+
